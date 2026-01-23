@@ -1,0 +1,74 @@
+[general]
+live_config_reload = true
+working_directory = "None"
+
+# Themes --
+import = [ 
+  "~/.config/alacritty/keybinds.toml"
+]
+
+[window]
+title = "Alacritty"
+decorations = "none"
+opacity = 0.5
+padding.x = 20
+padding.y = 26
+
+[window.dimensions]
+columns = 100
+lines = 25
+
+[cursor.style]
+shape = "Beam"
+blinking = "Never"
+
+[colors.primary]
+background = "#000000"      # black background
+foreground = "#FFFFFF"      # white text
+
+[colors.normal]
+black   = "#000000"
+red     = "#FFFFFF"
+green   = "#FFFFFF"
+yellow  = "#FFFFFF"
+blue    = "#FFFFFF"
+magenta = "#FFFFFF"
+cyan    = "#FFFFFF"
+white   = "#FFFFFF"
+
+[colors.bright]
+black   = "#000000"
+red     = "#FFFFFF"
+green   = "#FFFFFF"
+yellow  = "#FFFFFF"
+blue    = "#FFFFFF"
+magenta = "#FFFFFF"
+cyan    = "#FFFFFF"
+white   = "#FFFFFF"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#FFFFFF"
+
+[colors.selection]
+text = "#000000"
+background = "#FFFFFF"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+normal.style = "Regular"
+size = 15.5
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
