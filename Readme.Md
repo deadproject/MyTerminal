@@ -1,5 +1,8 @@
 # myTerminal 
 
+
+<img width="1920" height="1080" alt="Preview" src="https://github.com/deadproject/MyTerminal/blob/main/Preview.png?raw=true" />
+
 ### my Terminal configuration files
 
 ## Installation 
